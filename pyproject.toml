@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "levis-dj-tools"
+version = "0.1.0"
+description = "File management tools for harmonically categorized music collections"
+authors = ["Levi Junkert"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mutagen = "^1.46.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
